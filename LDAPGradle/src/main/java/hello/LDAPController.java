@@ -14,10 +14,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import model.Group;
 import model.User;
 
 @RestController
+@Api
+@RequestMapping("ldap")
 public class LDAPController {
 
 
@@ -26,7 +30,8 @@ public class LDAPController {
 	
 	Logger logger = Logger.getLogger(this.getClass());
     
-    @RequestMapping("/login")
+    @RequestMapping(value="/login",method = { RequestMethod.GET  })
+    @ApiOperation(value = "a1")
     public boolean login() throws LdapException {
     	logger.debug("Comes in Login");
     	LdapConnection connection = ldapService.getConnection();
@@ -35,13 +40,13 @@ public class LDAPController {
 		return isConnected;
     }
     
-    @RequestMapping("/searchUser")
+    @RequestMapping(value="/searchUser",method = { RequestMethod.GET  })
     public List<User> searchUser(@RequestParam(value="filter", defaultValue="(cn=N*)") String searchExpression) throws LdapException, CursorException, IOException {
     	logger.debug("Comes in Search"+searchExpression);
     	return ldapService.searchUser(searchExpression);
     }
     
-    @RequestMapping("/searchGroup")
+    @RequestMapping(value="/searchGroup",method = { RequestMethod.GET  })
     public List<Group> searchGroup(@RequestParam(value="filter", defaultValue="(cn=N*)") String searchExpression) throws LdapException, CursorException, IOException {
     	logger.debug("Comes in Search"+searchExpression);
     	return ldapService.searchGroup(searchExpression);

@@ -1,0 +1,771 @@
+2017-04-25 16:28:57.797 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:28:57.803 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:28:57.804 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:28:57.805 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:28:57.806 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:28:57.894  INFO 8924 --- [main] hello.Application                        : Starting Application on Neeraj-Jain with PID 8924 (started by Neeraj in D:\Eclipse Workspace\GradleSpring\LDAPGradle)
+2017-04-25 16:28:57.895 DEBUG 8924 --- [main] hello.Application                        : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-04-25 16:28:57.895  INFO 8924 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-04-25 16:28:58.020  INFO 8924 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5906ebcb: startup date [Tue Apr 25 16:28:58 IST 2017]; root of context hierarchy
+2017-04-25 16:29:00.631  INFO 8924 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2017-04-25 16:29:01.233 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [applicationConfig: [classpath:/application.properties]] PropertySource with search precedence immediately lower than [applicationConfigurationProperties]
+2017-04-25 16:29:01.234 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing [applicationConfigurationProperties] PropertySource
+2017-04-25 16:29:01.235 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing [defaultProperties] PropertySource
+2017-04-25 16:29:01.725  INFO 8924 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8f4951f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-25 16:29:01.919  INFO 8924 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-25 16:29:01.938  INFO 8924 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7a8136b3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-25 16:29:01.953  INFO 8924 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b41df4a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-25 16:29:01.983  INFO 8924 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-25 16:29:02.574  INFO 8924 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8888 (http)
+2017-04-25 16:29:02.590  INFO 8924 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-25 16:29:02.606  INFO 8924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-04-25 16:29:02.810  INFO 8924 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/ldapDemo]      : Initializing Spring embedded WebApplicationContext
+2017-04-25 16:29:02.810 DEBUG 8924 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2017-04-25 16:29:02.810  INFO 8924 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4795 ms
+2017-04-25 16:29:04.179 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.180 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.182 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.183 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.183 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.335 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.335 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.335 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.336 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.336 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.371 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.372 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.372 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.373 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.373 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.393 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.393 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.394 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.394 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.394 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.459 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.459 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.460 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.460 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.460 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.558 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.558 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.559 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.559 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.560 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.638 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.639 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.639 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.640 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.641 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.664 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.665 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.666 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.666 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.667 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.710  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2017-04-25 16:29:04.713  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-25 16:29:04.713  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-25 16:29:04.713  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-25 16:29:04.714  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-25 16:29:04.715 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.716 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:04.716 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:04.716 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:04.717 DEBUG 8924 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:04.717  INFO 8924 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-04-25 16:29:04.717  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-04-25 16:29:04.717  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'authenticationTokenFilterBean' to: [/*]
+2017-04-25 16:29:04.718  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-04-25 16:29:04.718  INFO 8924 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-25 16:29:04.776 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2017-04-25 16:29:05.604 DEBUG 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5906ebcb: startup date [Tue Apr 25 16:28:58 IST 2017]; root of context hierarchy
+2017-04-25 16:29:05.630 DEBUG 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 request handler methods found on class hello.LDAPController: {public boolean hello.LDAPController.login() throws org.apache.directory.api.ldap.model.exception.LdapException={[/ldap/login],methods=[GET]}, public java.util.List hello.LDAPController.modifyUser(model.User) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException={[/ldap/modifyUser],methods=[PUT],consumes=[application/json]}, public java.util.List hello.LDAPController.searchUser(java.lang.String) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException={[/ldap/searchUser],methods=[GET]}, public java.util.List hello.LDAPController.addGroup(model.Group) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException={[/ldap/addGroup],methods=[POST],consumes=[application/json]}, public java.util.List hello.LDAPController.searchGroup(java.lang.String) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException={[/ldap/searchGroup],methods=[GET]}, public java.util.List hello.LDAPController.addUserToGroup(model.User,java.lang.String) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException={[/ldap/addUserToGroup],methods=[POST],consumes=[application/json]}, public java.util.List hello.LDAPController.addUser(model.User) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException={[/ldap/addUser],methods=[POST],consumes=[application/json]}}
+2017-04-25 16:29:05.630  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/login],methods=[GET]}" onto public boolean hello.LDAPController.login() throws org.apache.directory.api.ldap.model.exception.LdapException
+2017-04-25 16:29:05.632  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/modifyUser],methods=[PUT],consumes=[application/json]}" onto public java.util.List<model.User> hello.LDAPController.modifyUser(model.User) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException
+2017-04-25 16:29:05.634  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/searchUser],methods=[GET]}" onto public java.util.List<model.User> hello.LDAPController.searchUser(java.lang.String) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException
+2017-04-25 16:29:05.634  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/addGroup],methods=[POST],consumes=[application/json]}" onto public java.util.List<model.Group> hello.LDAPController.addGroup(model.Group) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException
+2017-04-25 16:29:05.635  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/searchGroup],methods=[GET]}" onto public java.util.List<model.Group> hello.LDAPController.searchGroup(java.lang.String) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException
+2017-04-25 16:29:05.637  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/addUserToGroup],methods=[POST],consumes=[application/json]}" onto public java.util.List<model.Group> hello.LDAPController.addUserToGroup(model.User,java.lang.String) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException
+2017-04-25 16:29:05.638  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ldap/addUser],methods=[POST],consumes=[application/json]}" onto public java.util.List<model.User> hello.LDAPController.addUser(model.User) throws org.apache.directory.api.ldap.model.exception.LdapException,org.apache.directory.api.ldap.model.cursor.CursorException,java.io.IOException
+2017-04-25 16:29:05.640 DEBUG 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 request handler methods found on class hello.MainController: {public org.springframework.http.ResponseEntity hello.MainController.user(java.security.Principal)={[/security/user || /security/me],methods=[POST]}, public model.Greeting hello.MainController.greeting(java.lang.String)={[/security/hello],methods=[GET]}, public model.Greeting hello.MainController.homePage(java.lang.String)={[/security/],methods=[POST]}}
+2017-04-25 16:29:05.641  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/user || /security/me],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> hello.MainController.user(java.security.Principal)
+2017-04-25 16:29:05.642  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/hello],methods=[GET]}" onto public model.Greeting hello.MainController.greeting(java.lang.String)
+2017-04-25 16:29:05.643  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/],methods=[POST]}" onto public model.Greeting hello.MainController.homePage(java.lang.String)
+2017-04-25 16:29:05.644 DEBUG 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 request handler methods found on class springfox.documentation.swagger2.web.Swagger2Controller: {public org.springframework.http.ResponseEntity springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)={[/v2/api-docs],methods=[GET]}}
+2017-04-25 16:29:05.645  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-04-25 16:29:05.650 DEBUG 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 request handler methods found on class springfox.documentation.swagger.web.ApiResourceController: {org.springframework.http.ResponseEntity springfox.documentation.swagger.web.ApiResourceController.swaggerResources()={[/swagger-resources]}, org.springframework.http.ResponseEntity springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()={[/configuration/ui]}, org.springframework.http.ResponseEntity springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()={[/configuration/security]}}
+2017-04-25 16:29:05.651  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-04-25 16:29:05.652  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-04-25 16:29:05.654  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-04-25 16:29:05.660 DEBUG 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2017-04-25 16:29:05.661  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-25 16:29:05.662  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-25 16:29:06.394  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.398  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.399  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-04-25 16:29:06.400  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.403  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.404  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.406  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-04-25 16:29:06.407  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-04-25 16:29:06.407  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.408  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-04-25 16:29:06.410  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.412  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-04-25 16:29:06.414  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-04-25 16:29:06.414  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.415  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-04-25 16:29:06.417  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2017-04-25 16:29:06.420  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.423  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-04-25 16:29:06.424  INFO 8924 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-04-25 16:29:06.942 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.942 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.942 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:06.943 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:06.943 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:06.965 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.965 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.966 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:06.966 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:06.966 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:06.967 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.967 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.968 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:06.968 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:06.968 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:06.975 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.975 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.976 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:06.976 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:06.976 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:06.977 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.977 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.978 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:06.978 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:06.979 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:06.979 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.979 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:06.979 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:06.979 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:06.980 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.024 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.025 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.025 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.025 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.025 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.031 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.031 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.031 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.032 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.032 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.053 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.053 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.053 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.053 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.054 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.065 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.065 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.066 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.066 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.066 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.074 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.075 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.075 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.075 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.075 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.083 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.083 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.084 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.084 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.084 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.092 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.092 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.092 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.093 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.093 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.115 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.116 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.119 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.119 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.119 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.127  INFO 8924 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73ae0257, org.springframework.security.web.context.SecurityContextPersistenceFilter@16a35bd, org.springframework.security.web.header.HeaderWriterFilter@47b11ec7, org.springframework.security.web.csrf.CsrfFilter@6ca372ef, org.springframework.security.web.authentication.logout.LogoutFilter@2db4ad1, security.JwtAuthenticationTokenFilter@240fb73d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f798482, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28ee7bee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fc1020a, org.springframework.security.web.session.SessionManagementFilter@36aa52d2, org.springframework.security.web.access.ExceptionTranslationFilter@6cbe7d4d]
+2017-04-25 16:29:07.135 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.136 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.137 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.142 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.143 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.152 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.153 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.153 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.153 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.153 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.154 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.155 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.155 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.155 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.156 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.156 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.157 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.157 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.157 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.157 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.158 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.158 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.158 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.159 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.159 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.159 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.160 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.160 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.160 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.160 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.163 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.163 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.164 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.164 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.164 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.237 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.238 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.238 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.238 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.239 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.252  INFO 8924 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@2d55e826, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d1ff6b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@78a515e4, org.springframework.security.web.header.HeaderWriterFilter@4f327096, org.springframework.security.web.authentication.logout.LogoutFilter@8cc8cdb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45e9b12d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d2291de, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51c8f62c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45f756e6, org.springframework.security.web.session.SessionManagementFilter@1d61a348, org.springframework.security.web.access.ExceptionTranslationFilter@177c41d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f8aba08]
+2017-04-25 16:29:07.254 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.255 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-25 16:29:07.255 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-25 16:29:07.256 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-25 16:29:07.256 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-04-25 16:29:07.549  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5906ebcb: startup date [Tue Apr 25 16:28:58 IST 2017]; root of context hierarchy
+2017-04-25 16:29:07.560  INFO 8924 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2017-04-25 16:29:07.687 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5906ebcb: startup date [Tue Apr 25 16:28:58 IST 2017]; root of context hierarchy
+2017-04-25 16:29:07.687 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'application': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'LDAPController': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'LDapService': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mainController': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerConfig': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swagger2ParameterNameReader': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swagger2Controller': no URL paths identified
+2017-04-25 16:29:07.688 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'licenseMapperImpl': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelMapperImpl': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterMapperImpl': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'securityMapperImpl': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'serviceModelToSwagger2MapperImpl': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'vendorExtensionsMapperImpl': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiDescriptionLookup': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiDescriptionReader': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiDocumentationScanner': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiListingReferenceScanner': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiListingScanner': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiModelReader': no URL paths identified
+2017-04-25 16:29:07.689 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mediaTypeReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiOperationReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'cachingOperationNameGenerator': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultOperationReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultTagsProvider': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationDeprecatedReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationModelsProvider': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationParameterReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationParameterRequestConditionReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationResponseClassReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationTagsReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'responseMessagesReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'expandedParameterBuilder': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelAttributeParameterExpander': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterDataTypeReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterDefaultReader': no URL paths identified
+2017-04-25 16:29:07.690 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterMultiplesReader': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterNameReader': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterRequiredReader': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterTypeReader': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'documentationPluginsBootstrapper': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'documentationPluginsManager': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'webMvcRequestHandlerProvider': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationPathDecorator': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'pathMappingDecorator': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'pathSanitizer': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'queryStringUriTemplateDecorator': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'cachingAspect': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultModelProvider': no URL paths identified
+2017-04-25 16:29:07.691 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelDependencyProvider': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'typeNameExtractor': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'schemaPluginsManager': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'factoryMethodProvider': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectMapperBeanPropertyNamingStrategy': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'optimized': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'accessorsProvider': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'fieldProvider': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiModelBuilder': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiModelPropertyPropertyBuilder': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiModelTypeNameProvider': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationAuthReader': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationHiddenReader': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationHttpMethodReader': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationImplicitParameterReader': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationImplicitParametersReader': no URL paths identified
+2017-04-25 16:29:07.692 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationNicknameIntoUniqueIdReader': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationNotesReader': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationPositionReader': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationSummaryReader': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerMediaTypeReader': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerOperationModelsProvider': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerOperationResponseClassReader': no URL paths identified
+2017-04-25 16:29:07.693 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerOperationTagsReader': no URL paths identified
+2017-04-25 16:29:07.695 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerResponseMessageReader': no URL paths identified
+2017-04-25 16:29:07.695 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'vendorExtensionsReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerParameterAccessReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerParameterAllowableReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerParameterDefaultReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerParameterDescriptionReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerParameterMultiplesReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerParameterRequiredReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerExpandedParameterBuilder': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiListingTagReader': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiResourceController': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'classOrApiAnnotationResourceGrouping': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'webSecurityConfig': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jwtAuthenticationEntryPoint': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jwtAuthenticationProvider': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jwtTokenValidator': no URL paths identified
+2017-04-25 16:29:07.696 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springfox.documentation.schema.configuration.ModelsConfiguration': no URL paths identified
+2017-04-25 16:29:07.697 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'typeResolver': no URL paths identified
+2017-04-25 16:29:07.697 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelBuilderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.697 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'modelPropertyBuilderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.697 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'typeNameProviderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.697 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springfox.documentation.spring.web.SpringfoxWebMvcConfiguration': no URL paths identified
+2017-04-25 16:29:07.697 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaults': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceGroupCache': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectMapperConfigurer': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jsonSerializer': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'documentationPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'apiListingBuilderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationBuilderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.703 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'parameterBuilderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'expandedParameterBuilderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceGroupingStrategyRegistry': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'operationModelsProviderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultsProviderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'pathDecoratorRegistry': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.aop.config.internalAutoProxyCreator': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springfox.documentation.swagger.configuration.SwaggerCommonConfiguration': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swaggerProperties': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'swagger2Module': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'aseaiApi': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectPostProcessor': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationManagerBuilder': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'enableGlobalAuthenticationAutowiredConfigurer': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'initializeUserDetailsBeanManagerConfigurer': no URL paths identified
+2017-04-25 16:29:07.704 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'initializeAuthenticationProviderBeanManagerConfigurer': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'delegatingApplicationListener': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'webSecurityExpressionHandler': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springSecurityFilterChain': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'privilegeEvaluator': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autowiredWebSecurityConfigurersIgnoreParents': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestDataValueProcessor': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'methodSecurityInterceptor': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'methodSecurityMetadataSource': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'preInvocationAuthorizationAdvice': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationTokenFilterBean': no URL paths identified
+2017-04-25 16:29:07.705 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metaDataSourceAdvisor': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapper': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jsonComponentModule': no URL paths identified
+2017-04-25 16:29:07.706 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'websocketContainerCustomizer': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageRegistrarBeanPostProcessor': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServlet': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServletRegistration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jsr303Validator': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'methodValidationPostProcessor': no URL paths identified
+2017-04-25 16:29:07.708 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'error': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameViewResolver': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'conventionErrorViewResolver': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorAttributes': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'basicErrorController': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageCustomizer': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceHandlerRegistrationCustomizer': no URL paths identified
+2017-04-25 16:29:07.709 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcValidator': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcPathMatcher': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcConversionService': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2017-04-25 16:29:07.710 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2017-04-25 16:29:07.711 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcViewResolver': no URL paths identified
+2017-04-25 16:29:07.711 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+2017-04-25 16:29:07.711 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconRequestHandler': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultViewResolver': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewResolver': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'welcomePageHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestContextFilter': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpPutFormContentFilter': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.AuditAutoConfiguration$AuditEventRepositoryConfiguration': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'auditEventRepository': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.AuditAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'auditListener': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationAuditListener': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authorizationAuditListener': no URL paths identified
+2017-04-25 16:29:07.712 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.AuthenticationManagerConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationManager': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootAuthenticationConfigurerAdapter': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationManagerConfigurationListener': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.BootGlobalAuthenticationConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'bootGlobalAuthenticationConfigurationAdapter': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'authenticationEventPublisher': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'securityProperties': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$ManagementWebSecurityConfigurerAdapter': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$ManagementSecurityPropertiesConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementIgnoredRequestCustomizer': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.InfoContributorAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'envInfoContributor': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'management.info-org.springframework.boot.actuate.autoconfigure.InfoContributorProperties': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DiskSpaceHealthIndicatorConfiguration': no URL paths identified
+2017-04-25 16:29:07.713 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'diskSpaceHealthIndicator': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'diskSpaceHealthIndicatorProperties': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'healthAggregator': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'management.health.status-org.springframework.boot.actuate.autoconfigure.HealthIndicatorProperties': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricRepositoryAutoConfiguration$FastMetricServicesConfiguration': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'counterBuffers': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'gaugeBuffers': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'actuatorMetricReader': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'counterService': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'gaugeService': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricRepositoryAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanExporter': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectNamingStrategy': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanServer': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.PublicMetricsAutoConfiguration$TomcatMetricsConfiguration': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatPublicMetrics': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.PublicMetricsAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemPublicMetrics': no URL paths identified
+2017-04-25 16:29:07.714 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricReaderPublicMetrics': no URL paths identified
+2017-04-25 16:29:07.715 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$RequestMappingEndpointConfiguration': no URL paths identified
+2017-04-25 16:29:07.715 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingEndpoint': no URL paths identified
+2017-04-25 16:29:07.715 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.716 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environmentEndpoint': no URL paths identified
+2017-04-25 16:29:07.716 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'healthEndpoint': no URL paths identified
+2017-04-25 16:29:07.716 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beansEndpoint': no URL paths identified
+2017-04-25 16:29:07.716 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'infoEndpoint': no URL paths identified
+2017-04-25 16:29:07.717 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'loggersEndpoint': no URL paths identified
+2017-04-25 16:29:07.717 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricsEndpoint': no URL paths identified
+2017-04-25 16:29:07.717 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'traceEndpoint': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dumpEndpoint': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReportEndpoint': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'shutdownEndpoint': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'configurationPropertiesReportEndpoint': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints-org.springframework.boot.actuate.endpoint.EndpointProperties': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointMBeanExportAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpointMBeanExporter': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'auditEventsEndpoint': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.jmx-org.springframework.boot.actuate.autoconfigure.EndpointMBeanExportProperties': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'serverProperties': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.ManagementServerPropertiesAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementServerProperties': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified
+2017-04-25 16:29:07.718 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'stringHttpMessageConverter': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageConverters': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration$EntityLinksConfiguration': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'entityLinksPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'controllerEntityLinks': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'delegatingEntityLinks': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.hateoas.config.HateoasConfiguration': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'linkRelationMessageSource': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration$HypermediaConfiguration': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'halObjectMapperConfigurer': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name '_halObjectMapper': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.hateoas.config.HypermediaSupportBeanDefinitionRegistrar$DefaultObjectMapperCustomizer#0': no URL paths identified
+2017-04-25 16:29:07.719 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.hateoas.config.HypermediaSupportBeanDefinitionRegistrar$Jackson2ModuleRegisteringBeanPostProcessor#0': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name '_linkDiscovererRegistry': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.hateoas.LinkDiscoverers#0': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultRelProvider': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'annotationRelProvider': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'relProviderPluginRegistry': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name '_relProvider': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.hateoas.HypermediaHttpMessageConverterConfiguration': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'halMessageConverterSupportedMediaTypeCustomizer': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.hateoas-org.springframework.boot.autoconfigure.hateoas.HateoasProperties': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcManagementContextConfiguration': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpointHandlerMapping': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcEndpoints': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environmentMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'heapdumpMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'healthMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'loggersMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.720 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricsMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'logfileMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'auditEventMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.health-org.springframework.boot.actuate.autoconfigure.HealthMvcEndpointProperties': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.cors-org.springframework.boot.actuate.autoconfigure.EndpointCorsProperties': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$DocsMvcEndpointConfiguration': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementServletContext': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'halJsonMvcEndpoint': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$EndpointWebMvcConfiguration': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$ApplicationContextFilterConfiguration': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationContextIdFilter': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.721 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'managementContextResolver': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricExportAutoConfiguration$MetricExportPropertiesConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.metrics.export-org.springframework.boot.actuate.metrics.export.MetricExportProperties': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricExportAutoConfiguration$StatsdConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.scheduling.annotation.SchedulingConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricExportAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricWritersMetricExporter': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.MetricFilterAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'metricsFilter': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'endpoints.metrics.filter-org.springframework.boot.actuate.autoconfigure.MetricFilterProperties': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.TraceRepositoryAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'traceRepository': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.actuate.autoconfigure.TraceWebFilterAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'webRequestLoggingFilter': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'management.trace-org.springframework.boot.actuate.trace.TraceProperties': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springApplicationAdminRegistrar': no URL paths identified
+2017-04-25 16:29:07.722 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.security.SecurityFilterAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'securityFilterChainRegistration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'characterEncodingFilter': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartConfigElement': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartResolver': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'restTemplateBuilder': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReport': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springApplicationArguments': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootBanner': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootLoggingSystem': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environment': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemProperties': no URL paths identified
+2017-04-25 16:29:07.723 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemEnvironment': no URL paths identified
+2017-04-25 16:29:07.724 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2017-04-25 16:29:07.724 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageSource': no URL paths identified
+2017-04-25 16:29:07.724 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2017-04-25 16:29:07.724 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'servletContext': no URL paths identified
+2017-04-25 16:29:07.724 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextParameters': no URL paths identified
+2017-04-25 16:29:07.724 DEBUG 8924 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextAttributes': no URL paths identified
+2017-04-25 16:29:07.780  INFO 8924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-25 16:29:07.780  INFO 8924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-25 16:29:07.907 DEBUG 8924 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5906ebcb: startup date [Tue Apr 25 16:28:58 IST 2017]; root of context hierarchy
+2017-04-25 16:29:07.926  INFO 8924 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2017-04-25 16:29:08.064  INFO 8924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-25 16:29:08.215  INFO 8924 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2017-04-25 16:29:08.859  INFO 8924 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-04-25 16:29:08.879 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [Management Server] PropertySource with lowest search precedence
+2017-04-25 16:29:08.886  INFO 8924 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-04-25 16:29:09.067 DEBUG 8924 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Looking for resource handler mappings
+2017-04-25 16:29:09.069 DEBUG 8924 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@343e225a]
+2017-04-25 16:29:09.069 DEBUG 8924 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.CachingResourceResolver@1a07bf6, org.springframework.web.servlet.resource.PathResourceResolver@4c0e426a]
+2017-04-25 16:29:09.069 DEBUG 8924 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.CachingResourceResolver@713ec32d, org.springframework.web.servlet.resource.PathResourceResolver@34d713a2]
+2017-04-25 16:29:09.070  INFO 8924 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-04-25 16:29:09.122  INFO 8924 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-04-25 16:29:09.141  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-04-25 16:29:09.176  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addGroup was ldap-controller
+2017-04-25 16:29:09.182  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addGroup belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.184  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addUserToGroup was ldap-controller
+2017-04-25 16:29:09.185  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addUserToGroup belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.187  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addUser was ldap-controller
+2017-04-25 16:29:09.187  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addUser belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.188  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was ldap-controller
+2017-04-25 16:29:09.188  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: login belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.188  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method modifyUser was ldap-controller
+2017-04-25 16:29:09.188  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: modifyUser belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.189  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method searchGroup was ldap-controller
+2017-04-25 16:29:09.189  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: searchGroup belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.189  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method searchUser was ldap-controller
+2017-04-25 16:29:09.189  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: searchUser belongs to groups: [[ResourceGroup{groupName='ldap-controller', position=0, controller=hello.LDAPController}]] 
+2017-04-25 16:29:09.197  INFO 8924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/ldap-controller Description: ldap-controller Position: 0
+2017-04-25 16:29:09.257  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.257  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.261  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.261  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.281  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.Group(true)
+2017-04-25 16:29:09.282  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.Group(true)
+2017-04-25 16:29:09.324  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.325  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.331  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.331  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.335  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.Group(true)
+2017-04-25 16:29:09.335  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.Group(true)
+2017-04-25 16:29:09.338  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.338  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.339  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.Group(false)
+2017-04-25 16:29:09.339  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key model.Group(false)
+2017-04-25 16:29:09.340  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.Group(false)
+2017-04-25 16:29:09.340  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.Group(false)
+2017-04-25 16:29:09.341  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.Group(false)
+2017-04-25 16:29:09.342  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key model.Group(false)
+2017-04-25 16:29:09.342  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.Group(false)
+2017-04-25 16:29:09.342  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.Group(false)
+2017-04-25 16:29:09.343  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(false)
+2017-04-25 16:29:09.344  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(false)
+2017-04-25 16:29:09.359  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(false)
+2017-04-25 16:29:09.360  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(false)
+2017-04-25 16:29:09.363  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/addGroup.hello.LDAPController.addGroup.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.363  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/addGroup.hello.LDAPController.addGroup.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.397  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addGroup was ldap-controller
+2017-04-25 16:29:09.402  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addGroup was ldap-controller
+2017-04-25 16:29:09.414  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.414  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.415  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.415  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.415  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.415  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.415  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.416  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.416  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.416  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.417  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.User(false)
+2017-04-25 16:29:09.417  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key model.User(false)
+2017-04-25 16:29:09.417  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(false)
+2017-04-25 16:29:09.417  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(false)
+2017-04-25 16:29:09.418  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.User(false)
+2017-04-25 16:29:09.418  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key model.User(false)
+2017-04-25 16:29:09.418  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(false)
+2017-04-25 16:29:09.418  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(false)
+2017-04-25 16:29:09.419  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/addUser.hello.LDAPController.addUser.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.419  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/addUser.hello.LDAPController.addUser.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.426  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addUser was ldap-controller
+2017-04-25 16:29:09.429  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addUser was ldap-controller
+2017-04-25 16:29:09.435  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.435  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.435  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.436  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.436  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.Group(true)
+2017-04-25 16:29:09.436  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.Group(true)
+2017-04-25 16:29:09.437  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.437  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.443  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.User(false)
+2017-04-25 16:29:09.443  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key model.User(false)
+2017-04-25 16:29:09.445  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.User(false)
+2017-04-25 16:29:09.445  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key model.User(false)
+2017-04-25 16:29:09.448  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/addUserToGroup.hello.LDAPController.addUserToGroup.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.448  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/addUserToGroup.hello.LDAPController.addUserToGroup.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.470  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addUserToGroup was ldap-controller
+2017-04-25 16:29:09.473  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addUserToGroup was ldap-controller
+2017-04-25 16:29:09.478  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: boolean(true)
+2017-04-25 16:29:09.478  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key boolean(true)
+2017-04-25 16:29:09.479  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: boolean(true)
+2017-04-25 16:29:09.479  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key boolean(true)
+2017-04-25 16:29:09.480  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/login.hello.LDAPController.login.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.480  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/login.hello.LDAPController.login.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.482  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was ldap-controller
+2017-04-25 16:29:09.509  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was ldap-controller
+2017-04-25 16:29:09.516  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.516  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.518  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.518  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.518  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.518  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.519  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.User(false)
+2017-04-25 16:29:09.519  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key model.User(false)
+2017-04-25 16:29:09.519  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: model.User(false)
+2017-04-25 16:29:09.520  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key model.User(false)
+2017-04-25 16:29:09.520  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/modifyUser.hello.LDAPController.modifyUser.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.520  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/modifyUser.hello.LDAPController.modifyUser.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.523  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method modifyUser was ldap-controller
+2017-04-25 16:29:09.525  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method modifyUser was ldap-controller
+2017-04-25 16:29:09.530  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.530  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.530  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.Group>(true)
+2017-04-25 16:29:09.530  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<model.Group>(true)
+2017-04-25 16:29:09.531  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.Group(true)
+2017-04-25 16:29:09.531  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.Group(true)
+2017-04-25 16:29:09.531  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.532  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.532  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/searchGroup.hello.LDAPController.searchGroup.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.532  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/searchGroup.hello.LDAPController.searchGroup.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.536  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method searchGroup was ldap-controller
+2017-04-25 16:29:09.538  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method searchGroup was ldap-controller
+2017-04-25 16:29:09.540  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.541  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.541  INFO 8924 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<model.User>(true)
+2017-04-25 16:29:09.541  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<model.User>(true)
+2017-04-25 16:29:09.541  INFO 8924 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: model.User(true)
+2017-04-25 16:29:09.542  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key model.User(true)
+2017-04-25 16:29:09.542  INFO 8924 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /ldap/searchUser.hello.LDAPController.searchUser.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.542  INFO 8924 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /ldap/searchUser.hello.LDAPController.searchUser.DefaultGenericTypeNamingStrategy
+2017-04-25 16:29:09.545  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method searchUser was ldap-controller
+2017-04-25 16:29:09.547  INFO 8924 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method searchUser was ldap-controller
+2017-04-25 16:29:09.668  INFO 8924 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8888 (http)
+2017-04-25 16:29:09.671 DEBUG 8924 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [server.ports] PropertySource with highest search precedence
+2017-04-25 16:29:09.680  INFO 8924 --- [main] hello.Application                        : Started Application in 12.45 seconds (JVM running for 13.262)
+2017-04-25 18:49:42.950  INFO 8924 --- [RMI TCP Connection(2)-172.16.9.187] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-04-25 18:49:42.956  INFO 8924 --- [RMI TCP Connection(2)-172.16.9.187] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5906ebcb: startup date [Tue Apr 25 16:28:58 IST 2017]; root of context hierarchy
+2017-04-25 18:49:43.011  INFO 8924 --- [RMI TCP Connection(2)-172.16.9.187] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-04-25 18:49:43.022  INFO 8924 --- [RMI TCP Connection(2)-172.16.9.187] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

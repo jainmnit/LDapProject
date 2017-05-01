@@ -7,7 +7,7 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
+apply plugin: 'war'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
@@ -25,7 +25,16 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-aop")
+    compile("org.springframework.boot:spring-boot-starter-security")
+    compile("junit:junit")
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.2.2'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.2.2'
+    compile group: 'io.swagger', name: 'swagger-core', version: '1.5.13'
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.6.0'
     compile group: 'org.apache.directory.api', name: 'api-all', version: '1.0.0-RC2'
-    testCompile('org.springframework.boot:spring-boot-starter-test')
 }

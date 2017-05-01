@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>GradleSpring</name>
-	<comment>Project GradleSpring created by Buildship.</comment>
+	<name>LDAPGradle</name>
+	<comment>Project LDAPGradle created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
